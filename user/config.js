@@ -27,32 +27,32 @@
  */
 
 module.exports = {
-	prefix: '-',
-	name: 'DiscordTickets',
+	prefix: '!',
+	name: 'Tsunade',
 	presences: [
 		{
 			activity: '%snew',
 			type: 'PLAYING'
 		},
 		{
-			activity: 'with tickets',
+			activity: 'With My Boobs',
 			type: 'PLAYING'
 		},
 		{
-			activity: 'for new tickets',
-			type: 'WATCHING'
+			activity: 'With My Boobs',
+			type: 'PLAYING'
 		}
 	],
-	append_presence: ' | %shelp',
+	append_presence: '',
 	colour: '#009999',
 	err_colour: 'RED',
 	cooldown: 3,
-	guild: '', // ID of your guild (REQUIRED)
-	staff_role: '', // ID of your Support Team role (REQUIRED)
+	guild: '842544989522362380', // ID of your guild (REQUIRED)
+	staff_role: '842604524438945842', // ID of your Support Team role (REQUIRED)
 
 	tickets: {
-		category: '', // ID of your tickets category (REQUIRED)
-		send_img: true,
+		category: '842603936577880086', // ID of your tickets category (REQUIRED)
+		send_img: false,
 		ping: 'here',
 		text: `Hello there, {{ tag }}!
 		A member of staff will assist you shortly.
